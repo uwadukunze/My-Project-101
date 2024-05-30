@@ -13,6 +13,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -33,13 +34,19 @@
                 <!-- Project items go here -->
             </div>
         </section>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="certificate">
+                <h3>My Certification</h3>
+                <img src="certificate.jpg" alt="Certification">
+            </div>
+        </section>
         <section id="testimonials">
             <h2>Testimonials</h2>
             <blockquote>
                 <p>"This is the best project management tool I've ever used!"</p>
                 <footer>- Happy User</footer>
             </blockquote>
-            <!-- More testimonials -->
         </section>
     </main>
     <footer>
@@ -127,4 +134,16 @@ blockquote {
     font-style: italic;
     margin: 10px auto;
     max-width: 600px;
+}
+
+.certificate {
+    text-align: center;
+}
+
+.certificate img {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
 }
