@@ -46,7 +46,8 @@
         <p>&copy; 2024 My Project Dashboard</p>
     </footer>
 </body>
-</html>body {
+</html>
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
